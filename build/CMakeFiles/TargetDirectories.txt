@@ -1,0 +1,3 @@
+/home/os/Desktop/threadpool/build/CMakeFiles/rebuild_cache.dir
+/home/os/Desktop/threadpool/build/CMakeFiles/edit_cache.dir
+/home/os/Desktop/threadpool/build/CMakeFiles/test.dir

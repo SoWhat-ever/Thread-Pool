@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/os/Desktop/threadpool/src/task_queue.h
+queue
+-
+mutex
+-
+
+/home/os/Desktop/threadpool/src/thread_pool.h
+functional
+-
+atomic
+-
+thread
+-
+condition_variable
+-
+future
+-
+task_queue.h
+/home/os/Desktop/threadpool/src/task_queue.h
+
+/home/os/Desktop/threadpool/test/main.cc
+../src/task_queue.h
+/home/os/Desktop/threadpool/src/task_queue.h
+../src/thread_pool.h
+/home/os/Desktop/threadpool/src/thread_pool.h
+
